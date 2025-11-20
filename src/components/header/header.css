@@ -66,16 +66,17 @@
     margin-bottom: 10px;
 }
 
-.person button{
+.person-button{
     border: #ff00f7 2px solid;
-  padding: 0 13px;
+  padding: 13px 13px;
   border-radius: 10px;
   background-color: #B3DA2D;
   color: white;
   cursor: pointer;
   transition: all 0.4;
+  margin: 0 10px;
 }
-.person button:hover{
+.person-button:hover{
     background-color: transparent;
     color: black;
     border: #B3DA2D 2px solid;
@@ -115,7 +116,7 @@
         display: block !important;
         cursor: pointer;
         transition: all 1s;
-        margin: 5px 23px 0 -13px;
+        margin: 5px 23px 0 0px;
     }
     .hamburger img:hover{
         opacity: 0.5;

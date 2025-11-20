@@ -40,12 +40,13 @@ function NavBar(){
 
     const hamburgerClicked = () => {
         setHamburgerDisplay(prev => !prev)
+        window.onload()
         console.log('hellooo')
     }
     return(
         <div className='contain-header'>
             <div className="header-up">
-                <div className="logo" style={direction === 'rtl' ? {marginLeft: '0px',marginRight: '0px'} : {marginRight: '130px',marginLeft: '0px'}}>
+                <div className="logo" style={direction === 'rtl' ? {marginLeft: '130px',marginRight: '0px'} : {marginRight: '130px',marginLeft: '0px'}}>
                     <img  src="logo.png" alt=""/>
                 </div>
 
@@ -63,11 +64,18 @@ function NavBar(){
 
                 <div className="person">
                     <img src="/pexels-cottonbro-5741050.jpg" style={{width: '45px',height: '45px',borderRadius: '100%'}} alt=""/>
-                    <button onClick={(e) => changeLang(e)}>{lang}</button>
                 </div>
+
+                <button className='person-button' onClick={(e) => changeLang(e)}>{lang}</button>
+
                 <div className="hamburger" onClick={() => hamburgerClicked()}>
                     <img src="/ci--hamburger-lg.svg" alt="" />
-                    <div  className="hamburger-box" style={hamburgerDisplay ? {display: 'block'} : {display: 'none'}}>
+                    <div  className="hamburger-box" 
+                    style={{
+                        ...(hamburgerDisplay ? { display: 'block' } : { display: 'none' }),
+                        ...(direction === 'rtl' ? { left: '181px' } : { left: '' })
+                      }}
+                    >
                         <ul className='hamburger-ul'>
                             <Link to={'/'}><li>{t('navbar').home}</li></Link>
                             <Link to={'/about'}><li>{t('navbar').aboutus}</li></Link>

@@ -45,6 +45,16 @@
     text-align: right;
 }
 
+@media screen and (max-width: 500px) {
+    .benefit-box{
+        display: none;
+    }
+    .benefits{
+        padding-top: 0;
+        margin-top: 0;
+    }
+}
+
 @media (min-width: 450px) and (max-width: 810px) {
     .benefit-box{
         gap: 10px;
