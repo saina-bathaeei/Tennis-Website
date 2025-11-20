@@ -1,0 +1,20 @@
+.coach-boxes{
+    max-width: 1400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.swiper-slide , .swiper-slide-next{
+  margin-right: 0;
+}
+@media screen and (max-width:450px) {
+  .coach-boxes{
+    padding: 0 12px;
+  }
+}
+@media (min-width: 450px) and (max-width: 810px){
+  .coach-boxes{
+    padding: 0 15px;
+  }
+}

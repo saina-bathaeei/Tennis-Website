@@ -1,0 +1,125 @@
+.membership-services{
+    display: flex;
+}
+.membership-feature{
+    height: 700px;
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B3DA2D;
+    padding: 50px 0;
+}
+.membership-feature-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.membership-feature-title h1{
+    color: white;
+    line-height: 1em;
+    font-style: italic;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.membership-feature-title h1 span{
+    color: #10181A;
+}
+.membership-feature-title p{
+    color: #10181A;
+    width: 319px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.membership-box{
+    display: flex;
+    margin-bottom: 8px;
+    gap: 20px;
+    align-items: center;
+}
+.main-feature-membership{
+    margin-bottom: 30px;
+}
+.membership-box h3{
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+}
+.img-membership-box{
+    border-radius: 100%;
+    background-color: white;
+    padding: 6px 9px;
+}
+.img-membership-box img{
+    width: 20px;
+}
+.membership-feature button{
+    border: none;
+    background-color: #10181A;
+    color: white;
+    padding: 21px 30px;
+    border-radius: 40px;
+    font-style: italic;
+    font-weight: 700;
+}
+.membership-coach{
+    height: 700px;
+    background-color: #10181A;
+    color: white;
+    width: 34%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-image: url(image/icon/4638115.png);
+    background-size: contain;
+    background-repeat: no-repeat;*/
+}
+.coach-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-bottom: #424242 1px solid;
+    padding-bottom: 10px;
+}
+.coach-info-date{
+    padding: 0 12px;
+    background-color: #B3DA2D;
+    color: #10181A;
+    border-radius: 20px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.coach-info-name{
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+}
+.coach-info-time{
+    color: #B3DA2D;
+    font-weight: 200;
+}
+.membership-coach button{
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    padding: 21px 30px;
+    border-radius: 52px;
+    border: none;
+    background-color:#B3DA2D ;
+}
+.membership-services-img{
+    width: 34%;
+    background-image: url(player.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

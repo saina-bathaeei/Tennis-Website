@@ -1,0 +1,271 @@
+{
+    "greeting": "hello welcome",
+    "navbar": {
+        "home" : "Home",
+        "aboutus" : "About Us",
+        "shop" : "Shop",
+        "hire" : "Hire a Coach",
+        "contact" : "Contact Us"
+    },
+    "landingHome" : {
+        "title1" : "TENNIS",
+        "title2" : "SPORT CLUB",
+        "p" : "We invite you to come down, feel the energy, and experience the pariTime difference for yourself. Schedule a tour, sign up for a introductory lesson, or simply stop by to say hello.",
+        "button" : "Join our community"
+    },
+    "serviceHome" : {
+        "backgroundTitle" : "SPORT CLUB",
+        "title" : "we offer best services",
+        "component" : {
+            "A": {
+                "title": "Tennis court rent",
+                "p":"Book a premium court for your perfect game. Easy online reservation."
+            },
+            "B": {
+                "title": "Personal Trainings",
+                "p":"Elevate your game with personalized, one-on-one tennis instruction today."
+            },
+            "C": {
+                "title": "Children School",
+                "p":"Fun, skill-building tennis programs for children of all ages and levels."
+            },
+            "D": {
+                "title": "Support",
+                "p":"Get dedicated support. We're here to ensure your best experience."
+            }
+        }
+    },
+    "coachHome" : {
+        "backgroundTitle" : "SPORT CLUB",
+        "title1" : "Our",
+        "title2" : "Tennis Club",
+        "title3" : "offers",
+        "title4" : "high level services",
+        "button1" : "Contact",
+        "button2" : "Learn more",
+        "component" : {
+            "A": {
+                "name": "Blaine Terrence",
+                "ex":"7 years of experience",
+                "perfect1" : "A technically sound swing that holds up under pressure.",
+                "perfect2" : "The strategic IQ to outthink any opponent.",
+                "perfect3" : "Unshakable mental toughness for the crucial points."
+            },
+            "B": {
+                "name": "Morton Korrine",
+                "ex":"5 years of experience",
+                "perfect1" : "A personalized plan tailored to your specific goals.",
+                "perfect2" : "Video analysis to see and correct flaws you cant feel.",
+                "perfect3" : "Drills that transform your weaknesses into strengths."
+            },
+            "C": {
+                "name": "Mia Genie",
+                "ex":"5 years of experience",
+                "perfect1" : "Gives you The confidence to trust your shots.",
+                "perfect2" : "A competitive mindset that embraces the fight.",
+                "perfect3" : "Physical excercies for tennis-specific movement."
+            },
+            "D": {
+                "name": "Anahid Zabel",
+                "ex":"5 years of experience",
+                "perfect1" : "Faster footwork and explosive court coverage.",
+                "perfect2" : "A reliable second serve that wont break down.",
+                "perfect3" : "The ability to quickly analyze opponents game."
+            },
+            "F": {
+                "name": "Elen Tigran",
+                "ex":"5 years of experience",
+                "perfect1" : "GIves you The confidence to trust your shots.",
+                "perfect2" : "Expert guidance on equipment choice for you.",
+                "perfect3" : "improve your reaction time at the net."
+            }
+        }
+    },
+    "benefit" : {
+        "title1": "14 tennis courts",
+        "title2": "Professional coaches",
+        "title3": "Club Tournaments",
+        "p" : "Aliquam erat volutpat. Fusce vel lacus eleifend, placerat sapien vel, convallis massa."
+    },
+    "wearing" : {
+        "button": "read more",
+        "component" : {
+            "A": {
+                "title": "Tennis Wear",
+                "title2": "Collection",
+                "p" : "Duis a augue non mauris vehicula luctus vel nec sem. Fusce tincidunt neque vel velit rutrum, ac facilisis arcu ultricies."
+            },
+            "B": {
+                "title": "Accessories",
+                "p" : "Nunc malesuada augue et libero condimentum, ut sagittis urna faucibus."
+            },
+            "C": {
+                "title": "Running Shoes",
+                "p" : "Nunc malesuada augue et libero condimentum, ut sagittis urna faucibus."
+            }
+        }
+    },
+    "membershipCost" : {
+        "backgroundTitle" : "PRICE",
+        "title1" : "Our",
+        "title2" : "Membership price",
+        "p" : "Perfect for people who are looking for growth",
+        "button" : "Get Started",
+        "perfect" : " 1 individual training",
+        "mount" : "/per month",
+        "component" : {
+            "A":{
+                "title":"Beginners",
+                "price" : "$29"
+            },
+            "B":{
+                "title":"Advanced",
+                "price" : "$59"
+            },
+            "C":{
+                "title":"Professional",
+                "price" : "$90"
+            },
+            "D":{
+                "title":"Full Comples",
+                "price" : "$120"
+            }
+        }
+    },
+    "storeHome" : {
+        "backgroundTitle" : "STORE",
+        "title1" : "Online Store",
+        "title2" : "Recent Products",
+        "product1":"Modern Trainer Sneakers",
+        "product2":"Artificial Court Grass",
+        "product3":"Tennis Racket",
+        "product4":"Training Bag"
+    },
+    "footer" : {
+        "p" : "Mauris sed molestie sem. Sed vel vestibulum elit, non accumsan risus. In vitae sapien viverra est.",
+        "time" : "all time",
+        "title1" : "Explore",
+        "title2" : "Recent photos",
+        "button" : "Contact Us",
+        "li1" : "Tennis Club",
+        "li2" : "Products",
+        "li3" : "Cart",
+        "li4" : "Feedback"
+    },
+    "topFooter" : {
+        "title1" : "Subscribe for Members",
+        "title2" : "to Receive Latest News and Special Offers",
+        "input" : "Your Email...",
+        "button" : "Subscribe"
+    },
+    "aboutusPage" : {
+        "h1" : "More Than a Club, We're a Community",
+        "p" : "Welcome to PariTime Tennis Club, where passion for the game meets a vibrant community spirit. Nestled in the heart of Zanjan, we are more than just a place to play tennis; we are a home for players of all ages and abilities who share a love for this incredible sport.",
+        "aboutBoxTitle1" : "People satisfaction",
+        "aboutBoxTitle2" : "20 years of experience",
+        "aboutBoxTitle3" : "More than 15,000 people",
+        "mession" : {
+            "title" : "Our Mession",
+            "p" : "Since our founding in 2005, our mission has been simple: to foster a welcoming, supportive, and dynamic environment where everyone from absolute beginners to seasoned competitors can thrive. We believe that tennis is a game for life, offering not just physical fitness but also friendship, challenge, and joy."
+        },
+        "Facilities" : {
+            "title" : "Our World-ClassFacilities",
+            "title2" : "We take pride in offering exceptional facilities to enhance your playing experience:",
+            "p1" : "24 Well-Maintained Courts: Enjoy a perfect game on our 6 Har-Tru clay courts, 4 hard courts, and 2 indoor courts for year-round play.",
+            "p2" : "The Clubhouse: Our modern clubhouse is the social hub of the club, featuring a pro shop, locker rooms, and a cozy lounge area perfect for relaxing after a match.",
+            "p3" : " Lighted Courts: Don't let the sun set on your game! Our outdoor courts are fully lighted for evening play."
+        },
+        "Programs" : {
+            "title" : "Our Programs: For Every Player",
+            "title2" : "Whether you're looking to pick up a racket for the first time or compete in a championship tournament, we have a program for you.",
+            "p1" : "Junior Development: Our award-winning coaching program nurtures young talent, focusing on skill development, sportsmanship, and a lifelong love for the game.",
+            "p2" : "Adult Clinics & Lessons: Sharpen your skills with our team of friendly, USPTA-certified professionals. We offer group clinics, private lessons, and cardio tennis sessions.",
+            "p3" : "Social Play & Leagues: Get in the game with our organized mixers, round-robins, and competitive ladder leagues for all skill levels",
+            "p4" : "Tournaments: Test your mettle and have fun at our member tournaments and social events held throughout the year."
+        },
+        "review" : {
+            "title" : "Amazing Courts",
+            "p" : "“This tennis club has the most clean and well functional courts i have seen.”",
+            "name" : "Arina lando"
+        }
+    },
+    "shop" : {
+        "landing" : {
+            "title" : "50% off For your Very First Order",
+            "p" : "Get Unique Tennis Equipment with our various Collections. shop now to look PERFECT on Court.",
+            "button" : "Shop Now"
+        },
+        "filter" : {
+            "title1" : "Filter with Price",
+            "title2" : "Fiter with Category",
+            "price" : "$29",
+            "button" : "filter",
+            "li1" : "Racket",
+            "li2" : "Bag",
+            "li3" : "Balls",
+            "li4" : "Clothing",
+            "li5" : "Shoes",
+            "li6" : "others"  
+        },
+        "product" : {
+            "pro1" : "Training Bag",
+            "pro2" : "Tennis Racket",
+            "pro3" : "Artificial Court Grass",
+            "pro4" : "Modern Trainer Sneakers",
+            "pro5" : "Green T-Shirt",
+            "pro6" : "Black Socks",
+            "pro7" : "Ten Balls Set",
+            "pro8" : "Training Shorts",
+            "pro9" : "White Socks",
+            "pro10" : "Green Trainer Sneakers",
+            "pro11" : "Backpack",
+            "pro12" : "Table Tennis Set",
+            "pro13" : "Gray Trainer Sneakers",
+            "pro14" : "Light Gray Trainer Sneakers"
+        }
+    },
+    "hirePage" : {
+        "title": "Hire a Coach",
+        "p" : "We are offering you to hire one of the experienced coaches. here you can find the coach that meets your needs. You can easily contact them and set a schedual ",
+        "coach1" : "Blaine Terrence",
+        "coach2" : "Morton Korrine",
+        "coach3" : "Mia Genie",
+        "coach4" : "Anahid Zabel",
+        "coach5" : "Elen Tigran",
+        "year":"years of experience"
+    },
+    "contactPage" : {
+        "input1" : "Name",
+        "input2" : "Last Name",
+        "input3" : "Email",
+        "input4" : "Massage",
+        "button" : "Submit",
+        "info1": "Phone",
+        "info2": "Address",
+        "info3": "Email"
+    },
+    "singleCoachPage" : {
+        "name" : "Tom Hilder",
+        "pro": "Professional Tennis Coach",
+        "p1": "Elevating players to their peak performance through personalized training, mental fortitude, and a passion for the game",
+        "button1": "Book a session",
+        "button2": "Learn more",
+        "boxes": {
+            "title1": "50+",
+            "p1" : "Tournament Wins",
+            "title2": "200+",
+            "p2" : "Players Coached",
+            "title3": "15",
+            "p3" : "Years Experience",
+            "title4": "95%",
+            "p4" : "Success Rate"
+        },
+        "contactTitle": "Contact with Coach",
+        "speechTitle": "Coaches speech",
+        "speechp" : "“ We're going to start simple. We're going to laugh when we whiff, and we're going to cheer when we get it—even if it’s just once. Tennis isn't about being perfect. It's about being a little better than you were yesterday. It's about the workout you didn't realize you were getting, the stress you're crushing with every forehand, and the friends you make on this side of the net.”",
+        "address1": "phone",
+        "address2": "E-mail",
+        "address3": "Address",
+        "address4": "Availability"
+    }
+}

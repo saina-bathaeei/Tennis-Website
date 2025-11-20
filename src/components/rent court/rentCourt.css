@@ -1,0 +1,70 @@
+.rent-court-1{
+    background-image: url(/home/grid-01-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 1/3;
+    grid-row: 1;
+    width: 1000px;
+    height: 523px;
+}
+.rent-court-2{
+    background-color: rgb(179, 218, 45);
+    grid-row: 1;
+    grid-column: 3;
+    width: 550px;
+}
+.rent-court-3{
+    background-image: url(/home/grid-02-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 1;
+    grid-row: 2; 
+    width: 500px;
+    height: 495px;
+}
+.rent-court-4{
+    grid-column: 2/4;
+    grid-row: 2;
+    background-image: url(/home/grid-03-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1060px;
+    height: 495px;
+}
+
+.rent-court {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto; 
+    gap: 10px; 
+    width: 1570px;
+    margin: 20px auto;
+}
+.time-and-price-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.time-and-price-img img{
+    height: 30px;
+}
+.time-child{
+    display: flex;
+    align-items: center;
+}
+.time-and-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rent-court-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+    height: 100%;
+}

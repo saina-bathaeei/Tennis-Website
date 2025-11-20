@@ -1,0 +1,58 @@
+.shop-heading{
+    background-image: url('../../../public/Rectangle 47.png');
+    height: 832px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.shop-header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 300px 0;
+    color: white;
+    border-radius: 0px 0px 400px 400px;
+}
+.shop-header-container h1{
+    font-size: 48px;
+  line-height: 65px;
+}
+.shop-header-container p{
+    font-size: 20px;
+  width: 530px;
+  text-align: center;
+  font-weight: 300;
+}
+.shop-header-container button{
+    margin-top: 30px;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: #b3da2d;
+}
+
+@media (max-width:450px) {
+  .shop-heading{
+    background-position: center;
+  }
+  .shop-header-container h1{
+    font-size: 27px;
+  text-align: center;
+  line-height: 40px;
+  }
+  .shop-header-container p{
+    font-size: 13px;
+  width: 343px;
+  }
+}
+@media (min-width:450px) and (max-width:810px) {
+  .shop-heading{
+    background-position: center;
+  }
+  .shop-header-container h1{
+    font-size: 40px;
+  }
+  .shop-header-container p{
+    font-size: 15px;
+    width: 456px;
+  }
+}

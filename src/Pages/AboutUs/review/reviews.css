@@ -1,0 +1,7 @@
+.contain-rev{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px 10px;
+    max-width: 1400px;
+    margin: auto;
+}

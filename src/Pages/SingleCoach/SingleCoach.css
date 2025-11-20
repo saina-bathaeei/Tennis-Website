@@ -1,0 +1,247 @@
+.single-coach-landing{
+    max-width: 1300px;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+    justify-content: space-evenly;
+}
+.single-coach-left h1{
+    font-size: 60px;
+  line-height: 44px;
+  margin-top: 20px;
+}
+.single-coach-left span{
+    padding-left: 13px;
+  opacity: 0.4;
+}
+.single-coach-left p{
+    font-size: 24px;
+  width: 545px;
+  margin: 40px 0 30px;
+}
+.landing-coach-btn{
+    display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.book-se{
+    border-radius: 10px;
+  border: none;
+  background-color: #B3DA2D;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #F2F7F3;
+}
+.landing-learn-more{
+    background-color: white;
+  border: solid #b3da2d;
+  padding: 10px 20px;
+  font-size: 17px;
+  border-radius: 10px;
+  color: black;
+}
+.single-coach-landing-img{
+    background-image: url('../../../public/coach/coach-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 580px;
+    border-radius: 30px;
+}
+.single-coach-perfect-box{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 260px;
+}
+.single-coach-perfect{
+    display: flex;
+  gap: 15px;
+  max-width: 1246px;
+  margin: auto;
+}
+.single-coach-perfect-box{
+    padding: 199px 17px 0;
+  color: white;
+}
+.single-coach-perfect-box h1{
+    line-height: 29px;
+  padding-left: 10px;
+  font-size: 48px;
+}
+.single-coach-perfect-box span{
+    font-weight: 200;
+}
+.coach-single-speech{
+    max-width: 1150px;
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 110px;
+  gap: 45px;
+}
+.coach-speech-right{
+    padding-bottom: 30px;
+}
+.coach-speech-right h1{
+    font-size: 64px;
+}
+.coach-speech-right p{
+    font-size: 20px;
+  width: 600px;
+}
+.coach-speech-left img{
+    width: 420px;
+    border-radius: 30px;
+}
+.coach-contact h1{
+    font-size: 64px;
+}
+.coach-contact-container{
+    display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  padding: 20px;
+  background-color: #F2F7F3;
+  border-radius: 30px;
+}
+.coach-contact{
+    max-width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 100px;
+  margin-top: 200px;
+}
+.contact-coach-box h2{
+    line-height: 20px;
+  font-weight: 400;
+}
+.contact-coach-box{
+    display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 12px 24px;
+  background-color: #b3da2d;
+  border-radius: 10px;
+}
+.contact-coach-box span{
+    font-size: 13px;
+  opacity: 0.4;
+}
+.contact-coach-img svg{
+    color: #f2f7f3;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .single-coach-landing{
+    flex-direction: column-reverse;
+  justify-content: center;
+  }
+  .single-coach-left{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .single-coach-left h1{
+    font-size: 40px;
+  }
+  .single-coach-left p{
+    font-size: 16px;
+  margin: 15px 0 20px;
+  width: 341px;
+  }
+  .single-coach-landing-img{
+  width: 341px;
+  height: 400px;
+
+  }
+  .single-coach-perfect{
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .coach-single-speech{
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .coach-speech-left img{
+    width: 340px;
+  }
+  .coach-speech-right h1{
+    font-size: 40px;
+    text-align: center;
+  }
+  .coach-speech-right p{
+    font-size: 16px;
+    width: 300px;
+
+  }
+  .coach-contact h1{
+    font-size: 40px;
+  }
+  .coach-contact-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 810px) {
+  .single-coach-landing{
+    flex-direction: column-reverse;
+  justify-content: center;
+  }
+  .single-coach-left{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .single-coach-left h1{
+    font-size: 40px;
+  }
+  .single-coach-left p{
+    font-size: 16px;
+  margin: 15px 0 20px;
+  width: 341px;
+  }
+  .single-coach-landing-img{
+  width: 341px;
+  height: 400px;
+
+  }
+  .single-coach-perfect{
+    display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  }
+  .coach-single-speech{
+  justify-content: center;
+  align-items: center;
+  }
+  .coach-speech-left img{
+    width: 340px;
+  }
+  .coach-speech-right h1{
+    font-size: 40px;
+    text-align: center;
+  }
+  .coach-speech-right p{
+    font-size: 16px;
+    width: 300px;
+
+  }
+  .coach-contact h1{
+    font-size: 40px;
+  }
+  .coach-contact-container{
+    display: flex;
+    flex-direction: column;
+  }
+}

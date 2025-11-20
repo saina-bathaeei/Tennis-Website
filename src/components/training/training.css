@@ -1,0 +1,205 @@
+.head-training{
+    background-image: url(/home/parallax_01.jpg);
+    padding: 173px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.head-training-content{
+    max-width: 1400px;
+    margin: auto;
+    color: white;
+}
+.head-training-content h1{
+    font-size: 80px;
+    line-height: 1em;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 24px;
+}
+.head-training-content h1 span{
+    color: #B3DA2D;
+}
+.head-training-content p {
+    color: #A7A7A7;
+    width: 350px;
+    margin-bottom: 80px;
+}
+.head-training-content button{
+    padding: 21px 30px;
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    background-color: #B3DA2D;
+}
+.coperating{
+    background-color: #B3DA2D;
+}
+.coperating img{
+    width: 110px;
+}
+.coperating-content{
+    max-width: 1570px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 127px;
+    padding: 20px 0;
+}
+.wearing{
+    max-width: 1400px; 
+    margin: 100px auto; 
+}
+.wearing-info p{
+    width: 300px;
+    margin-bottom: 80px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+.wearing-info h1{
+    font-style: italic;
+    color: #10181A;
+}
+.wearing-title{
+    color: #10181A;
+    font-size: 80px;
+    font-style: italic;
+    line-height: 1em;
+    margin-bottom: 20px;
+}
+.wearing-title span{
+    color: #B3DA2D;
+}
+.wear-collection, .accessories , .running-shoes{
+    background-color: #F2F7F3;
+    display: flex;
+}
+.wear-collection{
+    grid-column: 1 / -1;
+    align-items: center;
+    padding-left: 80px;
+    border-radius: 30px;
+}
+.wearing-info{
+    width: 50%;
+    margin-right: 45px;
+}
+.wearing-info h1{
+    white-space: nowrap;
+
+}
+.img-wearing-cotain{
+    width: 50%;
+}
+.img-wearing-cotain img{
+    width: 400px;
+}
+.accessories , .running-shoes{
+    padding-left: 10px;
+    width: 685px;
+    align-items: center;
+    padding: 40px 0px 25px 40px;
+    border-radius: 30px;
+}
+.ac-shoe{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    border-radius: 30px;
+
+}
+/*.head-training::before{
+    background: rgba(186, 175, 175, 0.6);
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+}*/
+
+@media screen and (max-width:450px) {
+    .coperating-content{
+        gap: 20px;
+    }
+    .coperating img{
+        width: 40px;
+    }
+    .wearing{
+        padding: 0 15px;
+    }
+    .wear-collection{
+        padding: 30px 0 30px 40px;
+    }
+    .wearing-title{
+        font-size: 40px;
+        width: 300px;
+    }
+    .wearing-info p{
+        font-size: 12px;
+  width: 200px;
+  margin-bottom: 12px;
+    }
+    .wearing-info button{
+        font-size: 12px;
+    }
+    .ac-shoe{
+        flex-direction: column;
+    }
+    .accessories, .running-shoes{
+        width: auto;
+  position: relative;
+  z-index: -2;
+    }
+    .running-shoes .img-wearing-cotain img{
+        width: 167px !important;
+    }
+    .wear-collection .img-wearing-cotain img{
+        width: 167px !important;
+    }
+    .accessories .img-wearing-cotain img{
+        width: 150px !important;
+    }
+}
+@media (min-width: 450px) and (max-width: 810px){
+    .coperating-content{
+        gap: 55px;
+    }
+    .coperating-content img{
+        width: 80px;
+    }
+    .wear-collection{
+        padding: 30px 10px 33px 60px;
+    }
+    .wearing-title{
+        font-size: 60px;
+    }
+    .wear-collection .img-wearing-cotain img{
+        width: 300px;
+    }
+    .accessories{
+        padding: 10px 10px 10px 38px;
+        height: 300px;
+        width: 48%;
+    }
+    .running-shoes{
+        padding: 10px 10px 10px 38px !important;
+        height: 300px;
+        width: 48%;
+    }
+    .ac-shoe button{
+        padding: 16px 20px;
+    }
+    .accessories .img-wearing-cotain img{
+        width: 155px !important;
+    }
+    .running-shoes .img-wearing-cotain img{
+        width: 150px !important;
+    }
+    .wearing{
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,27 @@
+.contain-sevice-feature{
+    padding-top: 80px;
+    background-color: #F2F7F3;
+}
+.service-features{
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+    gap: 30px;
+}
+.title-service-features h1{
+    line-height: 1.1em;
+  color: #B3DA2D;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: 600;
+}
+.title-service-features h1 span{
+    color: #10181A;
+}
+.title-service-features p{
+    color: #A7A7A7;
+    font-size: 16px;
+    font-weight: 300;
+    width: 331px;
+}

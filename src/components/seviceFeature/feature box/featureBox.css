@@ -1,0 +1,25 @@
+.feature-box{
+    display: flex;
+    gap: 70px;
+    margin-top: 32px;
+    align-items: center;
+}
+.feature-number h1{
+    color: #B3DA2D;
+    font-size: 80px;
+    font-style: italic;
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    line-height: 52px;
+    text-align: center;
+    padding-left: 4px;
+}
+.feature-box-text p{
+    color: #A7A7A7;
+    width: 300px;
+}
+.feature-box-text h2{
+    font-weight: 500;
+    font-style: italic;
+}

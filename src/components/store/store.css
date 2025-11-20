@@ -1,0 +1,131 @@
+.store-title span{
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    color: #abd22c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 106px;
+    position: relative;
+    z-index: 3;
+}
+.product-box-container{
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 26px;
+}
+.product-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #E0E0E0 3px solid;
+    padding: 30px 35px 45px;
+    width: 330px;
+}
+.product-box-img img{
+    height: 252px;
+}
+.product-box-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.product-box-info h1{
+    color: #10181A;
+    font-style: italic;
+    text-align: center;
+}
+.product-box-info p{
+    width: 287px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #10181A;
+}
+.product-box-price{
+    font-size: 28px;
+    font-weight: 700;
+    color: #10181A;
+}
+.read-more{
+    cursor: pointer;
+}
+.product-img{
+    background-image: url('../../assets/image/product-01-600x600.jpg');
+    background-size: cover;
+  border-radius: 30px;
+  height: 310px;
+}
+.product-box-new{
+    box-shadow: rgba(0,0,0,0.4) 0px 5px 20px;
+  width: 330px;
+  border-radius: 30px;
+  padding: 10px;
+  max-height: 386px;
+}
+.rating-product{
+    width: 69px;
+  height: 45px;
+  background-color: #10181a;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  gap: 3px;
+  width: 30px;
+  padding: 0 30px;
+}
+.rating-product img{
+    width: 16px;
+}
+
+.product-info{
+    padding: 0 20px 10px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.product-info button{
+    background-color: white;
+  border: 2px #b3da2d solid;
+  padding: 10px 10px;
+  border-radius: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-info button:hover{
+    background-color: #b3da2d;
+    transition: all 0.2s;
+}
+
+@media screen and (max-width:450px) {
+    .store-title span{
+        margin-top: 19px;
+    }
+    .title-membership-price{
+        font-size: 27px;
+    }
+    .product-box-container{
+        flex-direction: column;
+  align-items: center;
+    }
+}
+@media (min-width: 450px) and (max-width: 810px) {
+    .product-box-container{
+        display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 30px;
+    }
+}

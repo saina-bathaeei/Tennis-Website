@@ -1,0 +1,6 @@
+.contain-header{
+    width: 100%;
+    background-color: #10181A;
+    position: fixed;
+    z-index: 3;
+}

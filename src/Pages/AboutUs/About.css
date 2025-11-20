@@ -1,0 +1,322 @@
+.about-heading-container{
+    background-color: #f2f7f3;
+  padding-bottom: 87px;
+  margin-bottom: 200px;
+  border-radius: 0 0 400px 400px;
+}
+
+.about-nav{
+    background-color: black;
+}
+.about-heading{
+  max-width: 1400px;
+  margin: auto;
+  padding-top: 40px;
+}
+.about-heading-top h1{
+    position: relative;
+    padding: 10px 100px 15px;
+    font-size: 64px;
+}
+.about-heading-top p{
+    width: 480px;
+  position: absolute;
+  margin-left: 100px;
+  color: #878787;
+  font-weight: 300;
+  margin-top: -1px;
+}
+.about-heading-center{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-heading-center img{
+    width: 1200px;
+}
+.about-heading-bottom{
+    position: absolute;
+  margin-left: 830px;
+  margin-top: -110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.about-heading-box{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-heading-box h1{
+    font-size: 48px;
+  line-height: 60px;
+}
+.about-heading-box p{
+    font-size: 13px;
+  color: #878787;
+}
+.info-about{
+    max-width: 1400px;
+  margin: auto;
+}
+.info-about-box{
+    display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 200px;
+}
+
+.info-about-box-text h1{
+    font-size: 64px;
+    margin-bottom: 40px;
+    line-height: 70px;
+}
+.info-about-box-text p{
+    color: #7E7E7E;
+  width: 675px;
+  font-size: 20px;
+  margin: 13px 0;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.info-about-box-text p svg{
+  font-size: 12px;
+  color: #b3da2d;
+}
+.info-about-box-text h3{
+  color: #7e7e7e;
+  font-size: 25px;
+}
+.info-about-box-img img{
+    width: 651px;
+}
+.about-review{
+    display: flex;
+  max-width: 1400px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  
+}
+.about-reviews{
+    display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.about-review-left img{
+    width: 482px;
+  border-radius: 30px;
+}
+.about-review-right-child{
+    padding: 35px 20px;
+    background-color: #f2f7f3;
+    border-radius: 30px;
+}
+.review-stars span{
+    font-size: 18px;
+}
+.about-review-right-child h2{
+    font-size: 48px;
+}
+.about-review-right-child p{
+    font-size: 24px;
+  width: 500px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.about-review-left{
+    width: 482px;
+    height: 482px;
+    background-image: url('../../../public/about/review-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 30px;
+}
+.left-arrow-about,.right-arrow-about{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 100%;
+    color: white;
+    cursor: pointer;
+}
+.right-arrow-about{
+    margin-right: 30px;
+}
+.persian-p-about{
+  margin: 15px 826px 0px 0px;
+}
+
+.persian-bottom-about{
+  margin: -110px 162px 0px 0px;
+}
+
+@media screen and (max-width: 450px) {
+  .about-heading-container{
+    padding-bottom: 165px;
+    border-radius: 0 0px 120px 120px;
+  }
+  .about-heading-top h1{
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 35px;
+    margin-bottom: 16px;
+  }
+  .about-heading-top p{
+    font-size: 11px;
+    margin: 0 22px;
+    width: 300px;
+  }
+  .about-heading-center img{
+    width: 300px;
+  margin-top: 78px;
+  }
+  .about-heading-bottom{
+    max-width: 400px;
+  margin: auto;
+  padding-left: 20px;
+  }
+  .about-heading-box h1{
+    line-height: 30px;
+  margin-top: 25px;
+  }
+  .about-heading-box p{
+    line-height: 30px;
+  margin-top: 5px;
+  font-size: 10px;
+  white-space: nowrap;
+  }
+  .about-heading-box h1{
+    font-size: 30px;
+  }
+  .info-about-box{
+    flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  }
+  .info-about-box-img img{
+    width: 300px;
+  }
+  .info-about-box-text{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .info-about-box-text h1{
+    font-size: 30px;
+  margin-bottom: -9px;
+  line-height: 40px;
+  text-align: center;
+  }
+  .info-about-box-text p{
+    font-size: 12px;
+  width: 300px;
+  }
+  .info-about-box-text h3{
+    font-size: 20px;
+    margin-top: 16px;
+    padding: 0 32px;
+  }
+  .left-arrow-about{
+    display: none;
+  }
+  .about-review{
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-review-left{
+    width: 300px;
+  }
+  .right-arrow-about{
+    display: none;
+  }
+  .about-review-right-child h2{
+    font-size: 23px;
+  }
+  .about-review-right-child p{
+    font-size: 16px;
+    width: 340px;
+  }
+  .about-review-right{
+    width: 345px;
+  }
+}
+@media (min-width:450px) and (max-width:810px) {
+  .about-heading-container{
+    padding-bottom: 100px;
+    border-radius: 0 0 180px 180px;
+  }
+  .about-heading-top h1{
+    font-size: 50px;
+  }
+  .about-heading-top p{
+    font-size: 14px;
+  }
+  .about-heading-center img{
+    width: 700px;
+    margin-top: 75px;
+  }
+  .about-heading-bottom{
+    margin-left: 479px;
+    margin-top: -56px;
+    gap: 15px;
+  }
+  .about-heading-box h1{
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .about-heading-box p{
+    font-size: 8px;
+  }
+  .info-about-box{
+    gap: 20px;
+    justify-content: center;
+  }
+  .info-about-box-img img{
+    width: 300px;
+  }
+  .info-about-box-text h1{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+  .info-about-box-text p{
+    font-size: 13px;
+    width: 346px;
+  }
+  .info-about-box-text h3{
+    font-size: 14px;
+    width: 410px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .about-reviews{
+    justify-content: center;
+  }
+  .about-review{
+    gap: 15px;
+    justify-content: center;
+  }
+  .about-review-left{
+    width: 300px;
+    height: 300px;
+  }
+  .about-review-right-child h2{
+    font-size: 30px;
+  }
+  .about-review-right-child p{
+    font-size: 15px;
+    width: 280px;
+  }
+  .right-arrow-about{
+    margin-left: 0;
+  }
+}

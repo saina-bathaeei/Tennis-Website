@@ -1,0 +1,85 @@
+.coach-box-page-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 455px;
+    width: 325px;
+    background-position: center;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.coach-box-page{
+    display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 30px;
+}
+.coach-box-page-info{
+    background-color: black;
+  color: white;
+  width: 70%;
+  border-radius: 30px;
+  padding: 40px 68px;
+}
+.coach-page-name h2{
+    font-size: 48px;
+}
+.coach-page-Benefits{
+    display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 15px;
+}
+.coach-page-Benefits span{
+    display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+}
+.coach-page-Benefits svg{
+    font-size: 20px;
+}
+.coach-page-speech p{
+    font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 200;
+}
+.coach-page-button{
+    display: flex;
+  justify-content: end;
+}
+.coach-page-button button{
+    padding: 10px 46px;
+  font-size: 20px;
+  background-color: #b4db2c;
+  border: none;
+  border-radius: 10px;
+}
+.coach-box-hover{
+  display: none;
+  background-color: rgb(223, 215, 215);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px 0px;
+  transition: opacity 1s;
+  margin-top: 355px;
+}
+.coach-box-hover span{
+  font-size: 22px;
+  line-height: 10px;
+}
+.coach-box-hover h1{
+  line-height: 30px;
+}
+.coach-name-up-hover{
+  margin-top: 398px;
+  box-shadow: inset 286px 37px 49px 33px rgba(0,0,0,0.7);
+  border-radius: 0px 0px 30px 30px;
+  color: white;
+  padding: 5px 25px;
+}
+.coach-box-page a{
+  text-decoration: none;
+}
