@@ -166,10 +166,8 @@
   }
 }
 
-@media (min-width: 450px) and (max-width: 810px) {
-  .contact {
-    flex-direction: column;
-}
+@media (min-width: 450px) and (max-width: 1300px) {
+  
 .contact-left{
   width: 90%;
 }

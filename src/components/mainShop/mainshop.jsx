@@ -2,7 +2,7 @@ import './mainshop.css'
 import ProductBox from '../store/productBox/productBox'
 import NumberClick from './numberClick'
 import CartProduct from './cartProduct'
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 
 
@@ -10,36 +10,48 @@ export default function MainShop (props) {
 
     const savedState = localStorage.getItem('localtest');
 
-    const {t} = useTranslation()
+    const {t,i18n} = useTranslation()
     const com = t("shop")
     const produ = com.product
 
-    const [shopProducts,setShopProducts] = useState([
-        {img: '/home/product-01-600x600.jpg' , star: 5 , title: produ.pro1  , price: '$13.49' },
-        {img: '/home/product-02-600x600.jpg' , star: 5 , title: produ.pro2  , price: '$17.99' },
-        {img: '/home/product-03-600x600.jpg' , star: 4 , title: produ.pro3  , price: '$9.99' },
-        {img: '/home/product-04-600x600.jpg' , star: 5 , title: produ.pro4  , price: '$125.00' },
-        {img: '/home/product-05-480x480.jpg' , star: 5 , title: produ.pro5  , price: '$12.00' },
-        {img: '/home/product-06-480x480.jpg' , star: 5 , title: produ.pro6  , price: '$16.99' },
-        {img: '/home/product-07-480x480.jpg' , star: 5 , title: produ.pro7  , price: '$13.99' },
-        {img: '/home/product-08-480x480.jpg' , star: 5 , title: produ.pro8  , price: '$17.99' },
-        {img: '/home/product-09-480x480.jpg' , star: 5 , title: produ.pro9  , price: '$10.00' },
-        {img: '/home/product-10-480x480.jpg' , star: 5 , title: produ.pro10 , price: '$102.00' },
-        {img: '/home/product-11-480x480.jpg' , star: 4 , title: produ.pro11 , price: '$16.99' },
-        {img: '/home/product-12-480x480.jpg' , star: 5 , title: produ.pro12 , price: '$13.99' },
-        {img: '/home/product-13-480x480.jpg' , star: 5 , title: produ.pro13 , price: '$17.99' },
-        {img: '/home/product-14-480x480.jpg' , star: 4 , title: produ.pro14 , price: '$17.99' }
-    ])
+    const [shopProducts,setShopProducts] = useState([])
+    const [firstPage,setFirstPage] = useState([])
+
+
+    useEffect(() => {
+
+        setShopProducts([
+            {img: '/home/product-01-600x600.jpg' , star: 5 , title: produ.pro1  , price: '$13.49' },
+            {img: '/home/product-02-600x600.jpg' , star: 5 , title: produ.pro2  , price: '$17.99' },
+            {img: '/home/product-03-600x600.jpg' , star: 4 , title: produ.pro3  , price: '$9.99' },
+            {img: '/home/product-04-600x600.jpg' , star: 5 , title: produ.pro4  , price: '$125.00' },
+            {img: '/home/product-05-480x480.jpg' , star: 5 , title: produ.pro5  , price: '$12.00' },
+            {img: '/home/product-06-480x480.jpg' , star: 5 , title: produ.pro6  , price: '$16.99' },
+            {img: '/home/product-07-480x480.jpg' , star: 5 , title: produ.pro7  , price: '$13.99' },
+            {img: '/home/product-08-480x480.jpg' , star: 5 , title: produ.pro8  , price: '$17.99' },
+            {img: '/home/product-09-480x480.jpg' , star: 5 , title: produ.pro9  , price: '$10.00' },
+            {img: '/home/product-10-480x480.jpg' , star: 5 , title: produ.pro10 , price: '$102.00' },
+            {img: '/home/product-11-480x480.jpg' , star: 4 , title: produ.pro11 , price: '$16.99' },
+            {img: '/home/product-12-480x480.jpg' , star: 5 , title: produ.pro12 , price: '$13.99' },
+            {img: '/home/product-13-480x480.jpg' , star: 5 , title: produ.pro13 , price: '$17.99' },
+            {img: '/home/product-14-480x480.jpg' , star: 4 , title: produ.pro14 , price: '$17.99' }
+        ])
+
+        setFirstPage([
+            {img: '/home/product-01-600x600.jpg' , star: 5 , title: produ.pro1  , price: '$13.49' },
+            {img: '/home/product-02-600x600.jpg' , star: 5 , title: produ.pro2  , price: '$17.99' },
+            {img: '/home/product-03-600x600.jpg' , star: 4 , title: produ.pro3  , price: '$9.99' },
+            {img: '/home/product-04-600x600.jpg' , star: 5 , title: produ.pro4  , price: '$125.00' },
+            {img: '/home/product-05-480x480.jpg' , star: 5 , title: produ.pro5  , price: '$12.00' },
+            {img: '/home/product-06-480x480.jpg' , star: 5 , title: produ.pro6  , price: '$16.99' }
+        ])
+
+    },[t,i18n.language])
 
     const [shoppingCart,setShoppingCart] = useState([])
-    const [firstPage,setFirstPage] = useState([
-        {img: '/home/product-01-600x600.jpg' , star: 5 , title: produ.pro1  , price: '$13.49' },
-        {img: '/home/product-02-600x600.jpg' , star: 5 , title: produ.pro2  , price: '$17.99' },
-        {img: '/home/product-03-600x600.jpg' , star: 4 , title: produ.pro3  , price: '$9.99' },
-        {img: '/home/product-04-600x600.jpg' , star: 5 , title: produ.pro4  , price: '$125.00' },
-        {img: '/home/product-05-480x480.jpg' , star: 5 , title: produ.pro5  , price: '$12.00' },
-        {img: '/home/product-06-480x480.jpg' , star: 5 , title: produ.pro6  , price: '$16.99' }
-    ])
+    
+
+
     const [currentVal,setCurrentVal] = useState(6)
     const [currentpage,setCurrentpage] = useState(1)
     const [chunkedData,setChunkedData] = useState([])

@@ -26,6 +26,7 @@
     display: flex;
     gap: 40px;
     position: relative;
+    white-space: nowrap;
 
 }
 .header-up-info ul li{

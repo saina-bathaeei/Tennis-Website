@@ -29,7 +29,7 @@ export default function Wearing() {
                         <span>{com.component.A.title}</span>
                     </h1>
                     <p style={direction === 'rtl' ? {fontFamily:'Lvazir', fontStyle: 'normal', opacity: '0.5'} : {fontFamily: "Kanit",fontStyle: 'italic'}}>{com.component.A.p}</p>
-                    <button style={direction === 'rtl' ? {fontFamily:'Lvazir', fontStyle: 'normal'} : {fontFamily: "Kanit",fontStyle: 'italic'}} className="read-more">{com.button} <img style={direction === 'rtl' ? {display: 'none'} : {display: "block"}} src="/home/icon/formkit--arrowright.svg" alt="" /></button>
+                    <button style={direction === 'rtl' ? {fontFamily:'Lvazir', fontStyle: 'normal'} : {fontFamily: "Kanit",fontStyle: 'italic'}} className="read-more">{com.button} </button>
                 </div>
       
                 <div className="img-wearing-cotain"><img src="/home/coach-slider-person.png" alt="" /></div>
@@ -39,18 +39,18 @@ export default function Wearing() {
                     <div className="wearing-info">
                         <h1 style={direction === 'rtl' ? {fontFamily:'Bvazir', fontStyle: 'normal'} : {fontFamily: "Kanit",fontStyle: 'italic'}}>{com.component.B.title}</h1>
                         <p style={direction === 'rtl' ? {fontFamily:'Lvazir', fontStyle: 'normal', opacity: '0.5'} : {fontFamily: "Kanit",fontStyle: 'italic'}}>{com.component.B.p}</p>
-                        <button style={direction === 'rtl' ? {fontFamily:'Lvazir', fontStyle: 'normal'} : {fontFamily: "Kanit",fontStyle: 'italic'}} className="read-more">{com.button} <img style={direction === 'rtl' ? {display: 'none'} : {display: "block"}} src="/home/icon/formkit--arrowright.svg" alt="" /></button>
+                        <button style={direction === 'rtl' ? {fontFamily:'Lvazir', fontStyle: 'normal'} : {fontFamily: "Kanit",fontStyle: 'italic'}} className="read-more">{com.button} </button>
                     </div>
-                    <div className="img-wearing-cotain"><img style={{width: 275}} src="/home/collection-02.jpg" /></div>
+                    <div className="img-wearing-cotain collection-img"><img style={{width: 275}} src="/home/collection-02.jpg" /></div>
                     
                 </div>
                 <div className="running-shoes">
                     <div className="wearing-info">
                         <h1 style={direction === 'rtl' ? {fontFamily:'Bvazir', fontStyle: 'normal'} : {fontFamily: "Kanit",fontStyle: 'italic'}}>{com.component.C.title}</h1>
                         <p style={direction === 'rtl' ? {fontFamily:'Lvazir', fontStyle: 'normal', opacity: '0.5'} : {fontFamily: "Kanit",fontStyle: 'italic'}}>{com.component.C.p}</p>
-                        <button style={direction === 'rtl' ? {fontFamily:'Lvazir', fontStyle: 'normal'} : {fontFamily: "Kanit",fontStyle: 'italic'}} className="read-more">{com.button} <img style={direction === 'rtl' ? {display: 'none'} : {display: "block"}} src="/home/icon/formkit--arrowright.svg" alt="" /></button>
+                        <button style={direction === 'rtl' ? {fontFamily:'Lvazir', fontStyle: 'normal'} : {fontFamily: "Kanit",fontStyle: 'italic'}} className="read-more">{com.button} </button>
                     </div>
-                    <div className="img-wearing-cotain"><img style={{width: 300}} src="/home/collection-03.jpg" alt="" /></div>
+                    <div className="img-wearing-cotain collection-img"><img style={{width: 300}} src="/home/collection-03.jpg" alt="" /></div>
                 </div>
             </div>
         </div>

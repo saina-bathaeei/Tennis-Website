@@ -191,37 +191,3 @@
   justify-content: center;
 }
 
-@media (max-width:450px) {
-    .shopContainer{
-        flex-direction: column;
-  justify-content: center;
-    }
-    .sidebar-shop{
-        width: auto;
-    }
-    .shop-products{
-        width: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-    }
-}
-@media (min-width:450px) and (max-width:810px) {
-    .shopContainer{
-        flex-direction: column;
-    }
-    .sidebar-shop{
-        width: auto;
-    }
-    .side-bar-child{
-        display: flex;
-        height: auto;
-    }
-    .shop-products{
-        width: auto;
-        grid-template-columns: auto auto;
-        justify-content: center;
-    }
-}

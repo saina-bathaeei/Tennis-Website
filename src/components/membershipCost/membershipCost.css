@@ -99,22 +99,3 @@
   border-bottom: 2px solid #D9D9D9;
 }
 
-@media screen and (max-width: 450px) {
-    .membership-price-title span{
-        margin-top: 56px;
-    }
-    .title-membership-price{
-        font-size: 40px;
-        line-height: 24px;
-    }
-    .membership-price-box{
-        flex-direction: column;
-        padding: 0 35px;
-    }
-}
-@media (min-width: 450px) and (max-width: 810px) {
-    .membership-price-box{
-        display: grid;
-  grid-template-columns: auto auto;
-    }
-}

@@ -7,14 +7,22 @@ import { useEffect } from 'react'
 
 export default function store() {
 
-    const {t} = useTranslation()
+    const {t,i18n} = useTranslation()
 
-    const [productBox,setProductBox] = useState([
-        {img: '/home/product-01-600x600.jpg' , star: 5 , title: t("storeHome").product1  , price: '$13.49' },
-        {img: '/home/product-02-600x600.jpg' , star: 5 , title: t("storeHome").product2  , price: '$17.99' },
-        {img: '/home/product-03-600x600.jpg' , star: 4 , title: t("storeHome").product3  , price: '$9.99' },
-        {img: '/home/product-04-600x600.jpg' , star: 5 , title: t("storeHome").product4  , price: '$125.00' },
-    ])
+    const [productBox,setProductBox] = useState([])
+
+
+    useEffect(() => {
+
+        setProductBox([
+            {img: '/home/product-01-600x600.jpg' , star: 5 , title: t("storeHome").product1  , price: '$13.49' },
+            {img: '/home/product-02-600x600.jpg' , star: 5 , title: t("storeHome").product2  , price: '$17.99' },
+            {img: '/home/product-03-600x600.jpg' , star: 4 , title: t("storeHome").product3  , price: '$9.99' },
+            {img: '/home/product-04-600x600.jpg' , star: 5 , title: t("storeHome").product4  , price: '$125.00' },
+        ])
+
+    },[t,i18n.language])
+
 
     const [direction,setDirection] = useState('')
 

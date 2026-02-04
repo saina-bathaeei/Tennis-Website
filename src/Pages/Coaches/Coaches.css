@@ -60,7 +60,7 @@
   }
 }
 
-@media (min-width: 450px) and (max-width: 810px) {
+@media (min-width: 450px) and (max-width: 1300px) {
   .coach-landing-info h1{
     font-size: 40px;
   }

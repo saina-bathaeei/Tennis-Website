@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './benefit.css'
 import BenefitL from './benefit-left/benefitL'
 import BenefitR from './benefit-right/benefitR'
@@ -6,20 +6,29 @@ import { useTranslation } from 'react-i18next'
 
 export default function Benefit (props) {
 
-  const {t} = useTranslation()
+  const {t,i18n} = useTranslation()
   const com = t("benefit")
 
-  const [benefitBoxRight,setBenefitBoxRight] = useState([
-    {img:'/home/icon/court.png' , title: com.title1  , info: com.p  },
-    {img:'/home/icon/tennis.png' , title: com.title2 , info: com.p  },
-    {img:'/home/icon/medal.png' , title: com.title3  , info: com.p  }
-  ])
+  const [benefitBoxLeft,setBenefitBoxLeft] = useState([])
+  const [benefitBoxRight,setBenefitBoxRight] = useState([])
 
-  const [benefitBoxLeft,setBenefitBoxLeft] = useState([
-    {img:'/home/icon/court.png' , title: com.title1  , info: com.p  },
-    {img:'/home/icon/tennis.png' , title: com.title2 , info: com.p  },
-    {img:'/home/icon/medal.png' , title: com.title3  , info: com.p  }
-  ])
+
+  useEffect(() => {
+
+    setBenefitBoxRight([
+      {img:'/home/icon/court.png' , title: com.title1  , info: com.p  },
+      {img:'/home/icon/tennis.png' , title: com.title2 , info: com.p  },
+      {img:'/home/icon/medal.png' , title: com.title3  , info: com.p  }
+    ])
+  
+    setBenefitBoxLeft([
+      {img:'/home/icon/court.png' , title: com.title1  , info: com.p  },
+      {img:'/home/icon/tennis.png' , title: com.title2 , info: com.p  },
+      {img:'/home/icon/medal.png' , title: com.title3  , info: com.p  }
+    ])
+
+  },[t,i18n.language])
+
 
     return (
       <div class="benefits">

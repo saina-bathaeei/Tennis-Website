@@ -54,23 +54,3 @@
        -1px  1px 0 #DCDCDC,
         1px  1px 0 #DCDCDC; 
 }
-
-@media screen and (max-width:450px) {
-    .absolute-services-title h1{
-        font-size: 80px;
-    }
-    .main-services-title h1{
-        font-size: 30px;
-  margin-top: 30px;
-  padding: 0;
-    }
-    .title-membership-pice{
-        font-size: 40px !important;
-    }
-}
-
-@media (min-width: 450px) and (max-width: 810px) {
-    .absolute-services-title h1{
-        font-size: 135px !important;
-    }
-}

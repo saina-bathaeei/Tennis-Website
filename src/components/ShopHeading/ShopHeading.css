@@ -29,30 +29,3 @@
   border: none;
   background-color: #b3da2d;
 }
-
-@media (max-width:450px) {
-  .shop-heading{
-    background-position: center;
-  }
-  .shop-header-container h1{
-    font-size: 27px;
-  text-align: center;
-  line-height: 40px;
-  }
-  .shop-header-container p{
-    font-size: 13px;
-  width: 343px;
-  }
-}
-@media (min-width:450px) and (max-width:810px) {
-  .shop-heading{
-    background-position: center;
-  }
-  .shop-header-container h1{
-    font-size: 40px;
-  }
-  .shop-header-container p{
-    font-size: 15px;
-    width: 456px;
-  }
-}

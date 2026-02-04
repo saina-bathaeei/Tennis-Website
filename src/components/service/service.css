@@ -7,19 +7,3 @@
 .main-services-title{
     margin-bottom: 120px;
 }
-@media screen and (max-width: 450px) {
-    .four-services-box{
-        flex-direction: column;
-        max-width: 450px;
-        align-items: center;
-    }
-}
-@media (min-width: 450px) and (max-width: 810px) {
-    .main-services-title h1{
-        padding-top: 40px;
-    }
-    .four-services-box{
-        display: grid;
-  grid-template-columns: auto auto;
-    }
-}

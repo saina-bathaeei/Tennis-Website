@@ -1,6 +1,6 @@
 import { changeLanguage } from 'i18next'
 import './nav.css'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useEffect, useState } from 'react'
 import i18next from 'i18next'
@@ -9,6 +9,7 @@ function NavBar(){
 
     const [direction,setDirection] = useState()
     const [hamburgerDisplay,setHamburgerDisplay] = useState(false)
+    //const navigate = useNavigate();
 
     useEffect(() => {
         document.body.dir = i18next.dir()
@@ -36,17 +37,38 @@ function NavBar(){
         }else{
             setLang('en')
         }
+        
+        /*const value = localStorage.getItem('i18nextLng');
+
+        if(lang === value){
+            console.log('yoehhh', lang, value)
+            setTimeout(() => {
+                window.location.reload();
+            },1000)
+            //navigate(0);
+        }*/
+
+        //
+
     }
 
     const hamburgerClicked = () => {
         setHamburgerDisplay(prev => !prev)
-        window.onload()
-        console.log('hellooo')
+        console.log(window.innerWidth)
     }
     return(
         <div className='contain-header'>
             <div className="header-up">
-                <div className="logo" style={direction === 'rtl' ? {marginLeft: '130px',marginRight: '0px'} : {marginRight: '130px',marginLeft: '0px'}}>
+                <div className="logo" 
+                style={{
+                    ...(direction === 'rtl' &&
+                        window.innerWidth > 450
+                      ? {marginLeft: '130px', marginRight: '0px'} 
+                      : {marginRight: '130px', marginLeft: '0px'}
+                    ),
+                    ...(window.innerWidth < 450 && {marginLeft: '0px',marginRight: '0px'})
+                  }}
+                >
                     <img  src="logo.png" alt=""/>
                 </div>
 

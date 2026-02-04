@@ -108,24 +108,3 @@
     background-color: #b3da2d;
     transition: all 0.2s;
 }
-
-@media screen and (max-width:450px) {
-    .store-title span{
-        margin-top: 19px;
-    }
-    .title-membership-price{
-        font-size: 27px;
-    }
-    .product-box-container{
-        flex-direction: column;
-  align-items: center;
-    }
-}
-@media (min-width: 450px) and (max-width: 810px) {
-    .product-box-container{
-        display: grid;
-  grid-template-columns: auto auto;
-  justify-content: center;
-  gap: 30px;
-    }
-}

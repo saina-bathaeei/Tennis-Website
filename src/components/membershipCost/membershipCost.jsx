@@ -7,16 +7,23 @@ import { useEffect } from 'react'
 
 export default function MembershipCost (props) {
 
-    const {t} = useTranslation()
+    const {t,i18n} = useTranslation()
+    const [member,setMember] = useState([])
 
-    const com = t("membershipCost").component
 
-    const [member,setMember] = useState([
-        {title: com.A.title , price: com.A.price ,img1:'/home/icon/teenyicons--tick-outline.svg',img2:'/home/icon/system-uicons--cross.svg',img3:'/home/icon/system-uicons--cross.svg',img4:'/home/icon/system-uicons--cross.svg' },
-        {title: com.B.title , price: com.B.price ,img1:'/home/icon/teenyicons--tick-outline.svg',img2:'/home/icon/teenyicons--tick-outline.svg',img3:'/home/icon/system-uicons--cross.svg',img4:'/home/icon/system-uicons--cross.svg' },
-        {title: com.C.title , price: com.C.price ,img1:'/home/icon/teenyicons--tick-outline.svg',img2:'/home/icon/teenyicons--tick-outline.svg',img3:'/home/icon/teenyicons--tick-outline.svg',img4:'/home/icon/system-uicons--cross.svg' },
-        {title: com.D.title , price: com.D.price  ,img1:'/home/icon/teenyicons--tick-outline.svg',img2:'/home/icon/teenyicons--tick-outline.svg',img3:'/home/icon/teenyicons--tick-outline.svg',img4:'/home/icon/teenyicons--tick-outline.svg' }
-    ])
+
+    useEffect(() => {
+        const com = t("membershipCost").component
+
+        setMember([
+            {title: com.A.title , price: com.A.price ,img1:'/home/icon/teenyicons--tick-outline.svg',img2:'/home/icon/system-uicons--cross.svg',img3:'/home/icon/system-uicons--cross.svg',img4:'/home/icon/system-uicons--cross.svg' },
+            {title: com.B.title , price: com.B.price ,img1:'/home/icon/teenyicons--tick-outline.svg',img2:'/home/icon/teenyicons--tick-outline.svg',img3:'/home/icon/system-uicons--cross.svg',img4:'/home/icon/system-uicons--cross.svg' },
+            {title: com.C.title , price: com.C.price ,img1:'/home/icon/teenyicons--tick-outline.svg',img2:'/home/icon/teenyicons--tick-outline.svg',img3:'/home/icon/teenyicons--tick-outline.svg',img4:'/home/icon/system-uicons--cross.svg' },
+            {title: com.D.title , price: com.D.price  ,img1:'/home/icon/teenyicons--tick-outline.svg',img2:'/home/icon/teenyicons--tick-outline.svg',img3:'/home/icon/teenyicons--tick-outline.svg',img4:'/home/icon/teenyicons--tick-outline.svg' }
+        ])
+
+    },[t,i18n.language])
+
 
     const [direction,setDirection] = useState('')
 

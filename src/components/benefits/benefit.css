@@ -45,34 +45,3 @@
     text-align: right;
 }
 
-@media screen and (max-width: 500px) {
-    .benefit-box{
-        display: none;
-    }
-    .benefits{
-        padding-top: 0;
-        margin-top: 0;
-    }
-}
-
-@media (min-width: 450px) and (max-width: 810px) {
-    .benefit-box{
-        gap: 10px;
-  align-items: center;
-  margin-bottom: 20px;
-    }
-    .benefit-box-info h1{
-        font-size: 20px;
-    }
-    .benefit-box-info p{
-        font-size: 12px;
-    }
-    .benefits{
-        background-position: center;
-  background-size: 212px;
-  margin: auto 20px;
-    }
-    .benefit-box img{
-        width: 60px;
-    }
-}

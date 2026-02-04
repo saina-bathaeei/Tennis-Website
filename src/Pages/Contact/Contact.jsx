@@ -47,7 +47,7 @@ export default function Contact() {
                     <div className="info-box-img"><PhoneIcon/></div>
                     <div className="info-box-information">
                         <h3>{t("contactPage").info1}</h3>
-                        <p>09125426945</p>
+                        <p>0900000000</p>
                     </div>
                 </div>
 
@@ -55,7 +55,7 @@ export default function Contact() {
                     <div className="info-box-img"><LocationPinIcon/></div>
                     <div className="info-box-information">
                         <h3>{t("contactPage").info2}</h3>
-                        <p>Znjan</p>
+                        <p>Torento</p>
                     </div>
                 </div>
 
@@ -63,7 +63,7 @@ export default function Contact() {
                     <div className="info-box-img"><EmailIcon/></div>
                     <div className="info-box-information">
                         <h3>{t("contactPage").info3}</h3>
-                        <p>sbathae@gmail.com</p>
+                        <p>ssssssss@gmail.com</p>
                     </div>
                 </div>
             </div>

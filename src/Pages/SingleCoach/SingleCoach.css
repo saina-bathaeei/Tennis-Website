@@ -136,112 +136,873 @@
   font-size: 40px;
 }
 
-@media screen and (max-width: 500px) {
-  .single-coach-landing{
-    flex-direction: column-reverse;
-  justify-content: center;
+
+
+
+
+
+
+/*media queries*/
+
+
+@media (min-width: 320px) and (max-width: 750px) {
+  .subscribe-input .read-more{
+      left: -45px;
   }
-  .single-coach-left{
-    display: flex;
+  .footer-child{
+      flex-direction: column;
+      padding: 43px 43px;
+  }
+  .subscribe-input input{
+      width: 310px;
+      padding: 10px 20px;
+  }
+  .subscribe-footer h2{
+      font-size: 18px;
+  }
+  .left-footer p{
+      margin: 20px 0;
+      width: 300px;
+  }
+  .phone-box{
+      width: 300px;
+  }
+  .contact-social-media{
+      width: 300px;
+  }
+  .center-footer{
+      width: 300px;
+      margin: 30px 0 30px;
+  }
+  .phone-number h1{
+      font-size: 20px;
+  }
+  .membership-price-title span{
+    margin-top: 56px;
+}
+.title-membership-price{
+    font-size: 40px;
+    line-height: 24px;
+}
+.membership-price-box{
+    flex-direction: column;
+    padding: 0 35px;
+}
+.benefit-box{
+  display: none;
+}
+.benefits{
+  padding-top: 0;
+  margin-top: 0;
+}
+.coach-boxes{
+  padding: 0 12px;
+}
+.rating-coach{
+  margin: 10px 307px;
+}
+.coach-name h2{
+  font-size: 20px;
+line-height: 22px;
+}
+.coach-name span{
+  font-size: 14px;
+}
+.coach-box{
+  width: 400px;
+  padding-bottom: 50px;
+}
+.coach-info-i button{
+  margin: 2px 0 0 260px;
+}
+.header {
+  background-position: center;
+}
+.header-up{
+  padding: 10px 20px !important;
+}
+.header-up-info ul{
+  display: none !important;
+}
+.title-header h1{
+  font-size: 55px;
+  line-height: 58px;
+  width: 367px;
+}
+.main-header-info p{
+  width: 300px;
+}
+.read-more{
+  padding: 15px 22px !important;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.person{
+  display: none !important;
+}
+.hamburger{
+  display: block !important;
+  cursor: pointer;
+  transition: all 1s;
+  margin: 5px 23px 0 0px;
+}
+.hamburger img:hover{
+  opacity: 0.5;
+}
+.shopContainer{
   flex-direction: column;
-  justify-content: center;
+justify-content: center;
+}
+.sidebar-shop{
+  width: auto;
+}
+.shop-products{
+  width: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 25px;
+}
+.four-services-box{
+  flex-direction: column;
   align-items: center;
-  }
-  .single-coach-left h1{
-    font-size: 40px;
-  }
-  .single-coach-left p{
-    font-size: 16px;
-  margin: 15px 0 20px;
-  width: 341px;
-  }
-  .single-coach-landing-img{
-  width: 341px;
-  height: 400px;
+}
+.shop-heading{
+  background-position: center;
+}
+.shop-header-container h1{
+  font-size: 27px;
+text-align: center;
+line-height: 40px;
+}
+.shop-header-container p{
+  font-size: 13px;
+width: 343px;
+}
+.store-title span{
+  margin-top: 19px;
+}
+.title-membership-price{
+  font-size: 27px;
+}
+.product-box-container{
+  flex-direction: column;
+align-items: center;
+}
+.absolute-services-title h1{
+  font-size: 80px;
+}
+.main-services-title h1{
+  font-size: 30px;
+margin-top: 30px;
+padding: 0;
+}
+.title-membership-pice{
+  font-size: 40px !important;
+}
 
-  }
-  .single-coach-perfect{
-    flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  }
-  .coach-single-speech{
-    flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  }
-  .coach-speech-left img{
-    width: 340px;
-  }
-  .coach-speech-right h1{
-    font-size: 40px;
-    text-align: center;
-  }
-  .coach-speech-right p{
-    font-size: 16px;
-    width: 300px;
+.coperating-content{
+  gap: 20px;
+}
+.coperating img{
+  width: 40px;
+}
+.wearing{
+  padding: 0 15px;
+}
+.wear-collection{
+  padding: 30px 0 30px 40px;
+}
+.wearing-title{
+  font-size: 40px;
+  width: 300px;
+}
+.wearing-info p{
+  font-size: 12px;
+width: 200px;
+margin-bottom: 12px;
+}
+.wearing-info button{
+  font-size: 12px;
+}
+.ac-shoe{
+  flex-direction: column;
+}
+.accessories, .running-shoes{
+  width: auto;
+position: relative;
+z-index: -2;
+}
+.running-shoes .img-wearing-cotain img{
+  width: 167px !important;
+}
+.wear-collection .img-wearing-cotain img{
+  width: 167px !important;
+}
+.accessories .img-wearing-cotain img{
+  width: 150px !important;
+}
 
-  }
-  .coach-contact h1{
-    font-size: 40px;
-  }
-  .coach-contact-container{
+.about-heading-container{
+  padding-bottom: 165px;
+  border-radius: 0 0px 120px 120px;
+}
+.about-heading-top h1{
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 35px;
+  margin-bottom: 16px;
+}
+.about-heading-top p{
+  font-size: 11px;
+  margin: 0 22px;
+  width: 300px;
+}
+.about-heading-center img{
+  width: 300px;
+margin-top: 78px;
+}
+.about-heading-bottom{
+  max-width: 400px;
+margin: auto;
+padding-left: 20px;
+}
+.about-heading-box h1{
+  line-height: 30px;
+margin-top: 25px;
+}
+.about-heading-box p{
+  line-height: 30px;
+margin-top: 5px;
+font-size: 10px;
+white-space: nowrap;
+}
+.about-heading-box h1{
+  font-size: 30px;
+}
+.info-about-box{
+  flex-direction: column;
+gap: 10px;
+align-items: center;
+justify-content: center;
+}
+.info-about-box-img img{
+  width: 300px;
+}
+.info-about-box-text{
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+.info-about-box-text h1{
+  font-size: 30px;
+margin-bottom: -9px;
+line-height: 40px;
+text-align: center;
+}
+.info-about-box-text p{
+  font-size: 12px;
+width: 300px;
+}
+.info-about-box-text h3{
+  font-size: 20px;
+  margin-top: 16px;
+  padding: 0 32px;
+}
+.left-arrow-about{
+  display: none;
+}
+.about-review{
+  flex-direction: column;
+  align-items: center;
+}
+.about-review-left{
+  width: 300px;
+}
+.right-arrow-about{
+  display: none;
+}
+.about-review-right-child h2{
+  font-size: 23px;
+}
+.about-review-right-child p{
+  font-size: 16px;
+  width: 340px;
+}
+.about-review-right{
+  width: 345px;
+}
+.coach-landing-info h1{
+  font-size: 40px;
+}
+.coach-landing-info p{
+  font-size: 16px;
+  width: 280px;
+}
+.coach-landing-info{
+  margin: 10px 0px;
+}
+.coach-landing-img img{
+  width: 300px;
+}
+.coach-landing{
+  margin: 0 30px;
+  gap: 30px;
+  flex-direction: column;
+}
+.coach-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.coach-box-page-img{
+  width: 280px !important;
+  height: 280px !important;
+}
+.coach-name-up-hover{
+  font-size: 20px !important;
+  margin-top: 242px !important;
+}
+.contact {
+  flex-direction: column;
+}
+.contact-left{
+width: 90%;
+}
+.contact-container-name{
+flex-direction: column;
+}
+.contact-name{
+display: flex;
+flex-direction: column;
+}
+.contact-container-name input{
+width: 100%;
+}
+.contact-right{
+justify-content: center;
+width: 90%;
+}
+.single-coach-landing{
+flex-direction: column-reverse;
+justify-content: center;
+}
+.single-coach-left{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.single-coach-left h1{
+font-size: 40px;
+}
+.single-coach-left p{
+font-size: 16px;
+margin: 15px 0 20px;
+width: 341px;
+}
+.single-coach-landing-img{
+font-size: 16px;
+margin: 15px 0 20px;
+width: 341px;
+}
+.single-coach-perfect{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.single-coach-landing{
+  flex-direction: column-reverse;
+justify-content: center;
+}
+.single-coach-left{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.single-coach-left h1{
+  font-size: 40px;
+}
+.single-coach-left p{
+  font-size: 16px;
+margin: 15px 0 20px;
+width: 341px;
+}
+.single-coach-landing-img{
+width: 341px;
+height: 400px;
+
+}
+.single-coach-perfect{
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.coach-single-speech{
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.coach-speech-left img{
+  width: 340px;
+}
+.coach-speech-right h1{
+  font-size: 40px;
+  text-align: center;
+}
+.coach-speech-right p{
+  font-size: 16px;
+  width: 300px;
+
+}
+.coach-contact h1{
+  font-size: 40px;
+}
+.coach-contact-container{
+  display: flex;
+  flex-direction: column;
+}
+.coach-box{
+  width: 400px;
+margin-right: 50px;
+}
+.rating-coach{
+  margin-left: 300px;
+}
+.coach-name h2{
+  font-size: 20px;
+line-height: 20px;
+}
+.coach-name span{
+  font-size: 14px;
+}
+.coach-benefit span{
+  font-size: 12px;
+}
+.coach-info-i button {
+  margin: 0 0 20px 262px;
+}
+
+  
+}
+
+
+@media (min-width: 500px) and (max-width: 750px) {
+  .services-box{
+    width: 75%;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
 
-@media (min-width: 450px) and (max-width: 810px) {
-  .single-coach-landing{
-    flex-direction: column-reverse;
-  justify-content: center;
-  }
-  .single-coach-left{
-    display: flex;
-  flex-direction: column;
-  justify-content: center;
+@media (min-width: 750px) and (max-width: 1200px){
+  .right-footer{
+    display: none;
+}
+.footer-child{
+    gap: 25px;
+align-items: center;
+justify-content: center;
+}
+.left-footer{
+    width: auto;
+}
+.center-footer{
+    width: auto;
+}
+.benefit-box{
+  gap: 10px;
   align-items: center;
-  }
-  .single-coach-left h1{
-    font-size: 40px;
-  }
-  .single-coach-left p{
-    font-size: 16px;
-  margin: 15px 0 20px;
-  width: 341px;
-  }
-  .single-coach-landing-img{
-  width: 341px;
-  height: 400px;
+  margin-bottom: 20px;
+}
+.benefit-box-info h1{
+  font-size: 20px;
+}
+.benefit-box-info p{
+  font-size: 12px;
+}
+.benefits{
+  background-position: center;
+  background-size: 212px;
+  margin: auto 20px;
+}
+.benefit-box img{
+  width: 60px;
+}
+.coach-boxes{
+  padding: 0 15px;
+}
+.header-up{
+  padding: 16px 16px !important;
+}
+.header-up-info ul{
+  display: none !important;
+}
+.title-header h1{
+  font-size: 60px;
+  line-height: 50px;
+}
+.main-header-info p{
+  width: 400px;
+}
+.read-more{
+  padding: 15px 30px;
+  font-size: 15px;
+}
+.hamburger{
+  display: block !important;
+  cursor: pointer;
+  transition: all 1s;
+  margin: 5px 23px 0 30px;
+}
+.hamburger img:hover{
+  opacity: 0.5;
+}
+.membership-price-box{
+  display: grid;
+grid-template-columns: auto auto;
+}
+.main-services-title h1{
+  padding-top: 40px;
+}
+.four-services-box{
+  display: grid;
+grid-template-columns: auto auto;
+}
+.product-box-container{
+  display: grid;
+grid-template-columns: auto auto;
+justify-content: center;
+gap: 30px;
+}
+.absolute-services-title h1{
+  font-size: 135px !important;
+}
 
-  }
-  .single-coach-perfect{
-    display: grid;
+.coperating-content{
+  gap: 55px;
+}
+.coperating-content img{
+  width: 80px;
+}
+.wear-collection{
+  padding: 30px 10px 33px 60px;
+}
+.wearing-title{
+  font-size: 60px;
+}
+.wear-collection .img-wearing-cotain img{
+  width: 300px;
+}
+.accessories{
+  padding: 10px 10px 10px 38px;
+  height: 300px;
+  width: 48%;
+}
+.running-shoes{
+  padding: 10px 10px 10px 38px !important;
+  height: 300px;
+  width: 48%;
+}
+.ac-shoe button{
+  padding: 16px 20px;
+}
+.accessories .img-wearing-cotain img{
+  width: 155px !important;
+}
+.running-shoes .img-wearing-cotain img{
+  width: 150px !important;
+}
+.wearing{
+  padding: 0 20px;
+}
+.coach-landing-info h1{
+  font-size: 40px;
+}
+.coach-landing-info p{
+  font-size: 16px;
+  width: 280px;
+}
+.coach-landing-info{
+  margin: 10px 0px;
+}
+.coach-landing-img img{
+  width: 300px;
+}
+.coach-landing{
+  margin: 0 30px;
+  gap: 30px;
+}
+.coach-container{
   grid-template-columns: auto auto;
   justify-content: center;
-  align-items: center;
-  }
-  .coach-single-speech{
-  justify-content: center;
-  align-items: center;
-  }
-  .coach-speech-left img{
-    width: 340px;
-  }
-  .coach-speech-right h1{
-    font-size: 40px;
-    text-align: center;
-  }
-  .coach-speech-right p{
-    font-size: 16px;
-    width: 300px;
+  gap: 0 20px;
+}
+.coach-box-page-img{
+  width: 250px !important;
+  height: 280px !important;
+}
+.coach-name-up-hover{
+  font-size: 20px !important;
+  margin-top: 242px !important;
+}
+.contact {
+  flex-direction: column;
+}
+.contact-left{
+width: 90%;
+}
+.contact-container-name{
+flex-direction: column;
+}
+.contact-name{
+display: flex;
+flex-direction: column;
+}
+.contact-container-name input{
+width: 100%;
+}
+.contact-right{
+justify-content: center;
+width: 90%;
+}
+.single-coach-landing{
+flex-direction: column-reverse;
+justify-content: center;
+}
+.single-coach-left{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.single-coach-left h1{
+font-size: 40px;
+}
+.single-coach-left p{
+font-size: 16px;
+margin: 15px 0 20px;
+width: 341px;
+}
+.single-coach-landing-img{
+width: 341px;
+height: 400px;
 
+}
+.single-coach-perfect{
+display: grid;
+grid-template-columns: auto auto;
+justify-content: center;
+align-items: center;
+}
+.coach-single-speech{
+justify-content: center;
+align-items: center;
+}
+.coach-speech-left img{
+width: 340px;
+}
+.coach-speech-right h1{
+font-size: 40px;
+text-align: center;
+}
+.coach-speech-right p{
+font-size: 16px;
+width: 300px;
+
+}
+.coach-contact h1{
+font-size: 40px;
+}
+.coach-contact-container{
+display: flex;
+flex-direction: column;
+}
+.wearing-info{
+  position: relative;
+  z-index: 2;
+}
+.img-wearing-cotain{
+  position: absolute;
+  z-index: 1;
+  margin-left: 40%;
+}
+.collection-img{
+  position: absolute;
+  z-index: 1;
+  margin-left: 18%;
+}
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 500px){
+  .wearing-info{
+    position: relative;
+    z-index: 2;
   }
-  .coach-contact h1{
+  .img-wearing-cotain{
+    position: absolute;
+    z-index: 1;
+    margin-left: 40%;
+  }
+  .collection-img{
+    position: absolute;
+    z-index: 1;
+    margin-left: 45%;
+  }
+}
+
+
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  
+}
+
+.side-bar-child{
+  padding-bottom: 39px;
+  height: 100%;
+}
+
+@media (min-width:450px) and (max-width:810px) {
+  .shopContainer{
+      flex-direction: column;
+  }
+  .sidebar-shop{
+      width: auto;
+  }
+  .side-bar-child{
+      display: flex;
+      height: auto;
+  }
+  
+  .shop-products{
+      width: auto;
+      grid-template-columns: auto auto;
+      justify-content: center;
+  }
+}
+
+
+@media (min-width:450px) and (max-width:810px) {
+  .shop-heading{
+    background-position: center;
+  }
+  .shop-header-container h1{
     font-size: 40px;
   }
-  .coach-contact-container{
-    display: flex;
+  .shop-header-container p{
+    font-size: 15px;
+    width: 456px;
+  }
+}
+
+
+@media (min-width: 450px) and (max-width: 700px) {
+  .ac-shoe {
     flex-direction: column;
   }
 }
+
+
+
+@media (min-width:450px) and (max-width:810px) {
+  .about-heading-container{
+    padding-bottom: 100px;
+    border-radius: 0 0 180px 180px;
+  }
+  .about-heading-top h1{
+    font-size: 50px;
+  }
+  .about-heading-top p{
+    font-size: 14px;
+  }
+  .about-heading-center img{
+    width: 700px;
+    margin-top: 75px;
+  }
+  .about-heading-bottom{
+    margin-left: 479px;
+    margin-top: -56px;
+    gap: 15px;
+  }
+  .about-heading-box h1{
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .about-heading-box p{
+    font-size: 8px;
+  }
+  .info-about-box{
+    gap: 20px;
+    justify-content: center;
+  }
+  .info-about-box-img img{
+    width: 300px;
+  }
+  .info-about-box-text h1{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+  .info-about-box-text p{
+    font-size: 13px;
+    width: 346px;
+  }
+  .info-about-box-text h3{
+    font-size: 14px;
+    width: 410px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .about-reviews{
+    justify-content: center;
+  }
+  .about-review{
+    gap: 15px;
+    justify-content: center;
+  }
+  .about-review-left{
+    width: 300px;
+    height: 300px;
+  }
+  .about-review-right-child h2{
+    font-size: 30px;
+  }
+  .about-review-right-child p{
+    font-size: 15px;
+    width: 280px;
+  }
+  .right-arrow-about{
+    margin-left: 0;
+  }
+}
+
+
+/* 1. Start with html */
+html {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+}
+
+/* 2. Then body */
+body {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+  width: 100%;
+  position: relative;
+}
+
+/* 3. Then the root div */
+#root, .App, [data-reactroot] {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+  width: 100%;
+}
+
+/* 4. Direct children of body */

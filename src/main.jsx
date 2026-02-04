@@ -6,9 +6,9 @@ import { BrowserRouter } from 'react-router-dom'
 import './../public/Language/i18.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  //<StrictMode>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </StrictMode>,
+  //</StrictMode>,
 )
